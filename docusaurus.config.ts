@@ -15,15 +15,17 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://docs3.inteli-blockchain.com',
+  url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docs3/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'InteliBlockchain-IBC', // Usually your GitHub org/user name.
   projectName: 'docs3', // Usually your repo name.
+
+  deploymentBranch: 'gh-pages', // The branch that GitHub pages will deploy from.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
