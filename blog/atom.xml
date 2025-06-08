@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/blog</id>
+    <id>https://github.com/docs3/blog</id>
     <title>Docs³ Blog</title>
     <updated>2025-06-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/blog"/>
+    <link rel="alternate" href="https://github.com/docs3/blog"/>
     <subtitle>Docs³ Blog</subtitle>
-    <icon>https://github.com/img/favicon.ico</icon>
+    <icon>https://github.com/docs3/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Primeira versão da documentação]]></title>
-        <id>https://github.com/blog/first-post</id>
-        <link href="https://github.com/blog/first-post"/>
+        <id>https://github.com/docs3/blog/first-post</id>
+        <link href="https://github.com/docs3/blog/first-post"/>
         <updated>2025-06-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Esse post marca o início da documentação oficial do Inteli Blockchain.]]></summary>
         <content type="html"><![CDATA[<p>Esse post marca o início da documentação oficial do Inteli Blockchain.</p>
 <p>É também para eu dizer que estou muito ansioso para o que vamos contruir juntos nesse ano e nos que vem a seguir. Espero que esse legado seja levado a diante e que possamos contribuir ainda mais para a comunidade Web3 como um todo.</p>
 <p>"A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original." - Albert Einstein</p>
-<p><img decoding="async" loading="lazy" alt="Gatinho Soco" src="https://github.com/assets/images/giphy-45af0abd2ab79029531e4aa8c1249873.gif" width="220" height="126" class="img_ev3q"></p>]]></content>
+<p><img decoding="async" loading="lazy" alt="Gatinho Soco" src="https://github.com/docs3/assets/images/giphy-45af0abd2ab79029531e4aa8c1249873.gif" width="220" height="126" class="img_ev3q"></p>]]></content>
         <author>
             <name>Vinicius Testa Passos</name>
             <uri>mailto:viniciustestapassos@gmail.com</uri>

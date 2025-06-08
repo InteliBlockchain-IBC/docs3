@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Docs³ Blog</title>
-        <link>https://github.com/blog</link>
+        <link>https://github.com/docs3/blog</link>
         <description>Docs³ Blog</description>
         <lastBuildDate>Sun, 08 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,14 +10,14 @@
         <language>en</language>
         <item>
             <title><![CDATA[Primeira versão da documentação]]></title>
-            <link>https://github.com/blog/first-post</link>
-            <guid>https://github.com/blog/first-post</guid>
+            <link>https://github.com/docs3/blog/first-post</link>
+            <guid>https://github.com/docs3/blog/first-post</guid>
             <pubDate>Sun, 08 Jun 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Esse post marca o início da documentação oficial do Inteli Blockchain.]]></description>
             <content:encoded><![CDATA[<p>Esse post marca o início da documentação oficial do Inteli Blockchain.</p>
 <p>É também para eu dizer que estou muito ansioso para o que vamos contruir juntos nesse ano e nos que vem a seguir. Espero que esse legado seja levado a diante e que possamos contribuir ainda mais para a comunidade Web3 como um todo.</p>
 <p>"A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original." - Albert Einstein</p>
-<p><img decoding="async" loading="lazy" alt="Gatinho Soco" src="https://github.com/assets/images/giphy-45af0abd2ab79029531e4aa8c1249873.gif" width="220" height="126" class="img_ev3q"></p>]]></content:encoded>
+<p><img decoding="async" loading="lazy" alt="Gatinho Soco" src="https://github.com/docs3/assets/images/giphy-45af0abd2ab79029531e4aa8c1249873.gif" width="220" height="126" class="img_ev3q"></p>]]></content:encoded>
             <category>Web3</category>
             <category>Blockchain Basics</category>
         </item>
