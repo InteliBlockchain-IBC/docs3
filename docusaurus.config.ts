@@ -22,8 +22,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Inteli Blockchain', // Usually your GitHub org/user name.
-  projectName: 'Docs³', // Usually your repo name.
+  organizationName: 'InteliBlockchain-IBC', // Usually your GitHub org/user name.
+  projectName: 'docs3', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -101,7 +101,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs/welcome',
             },
           ],
         },
