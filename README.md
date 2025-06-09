@@ -42,7 +42,7 @@ npm run start
 
 Após isso você deve fazer sync da `main` e executar o comando `npm run deploy`
 
-O Docusaurus irá buildar a aplicação, comprir e subir para a branch `gh-pages`. O pipeline fará o resto da operação deployando o projeto em produção.
+O Docusaurus irá buildar a aplicação, cumprir e subir para a branch `gh-pages`. O pipeline fará o resto da operação deployando o projeto em produção.
 
 # Documentar atualizações
 
