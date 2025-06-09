@@ -9,7 +9,7 @@
 &emsp;Quando terminar suas alterações abre uma Pull Request para a branch default `main` e solicite a revisão de um dos moderadores da organização ou contribuidores do projeto.
 
 # Especificações técnicas
-&emsp;O projeto foi desenvolvido utilizando a biblioteca [Docusauros](https://docusaurus.io/). A Docusaurus nada mais é do que um framework para desenvolvimento de documentações. Ele nos permite que com alguns simples arquivos `.md` consigamos escrever documentações completas e user friedly.
+&emsp;O projeto foi desenvolvido utilizando a biblioteca [Docusaurus](https://docusaurus.io/). A Docusaurus nada mais é do que um framework para desenvolvimento de documentações. Ele nos permite que com alguns simples arquivos `.md` consigamos escrever documentações completas e user-friendly.
 
 &emsp;O docusaurus gera uma build e faz deploy automatizado do projeto. Isso gera páginas mais leves com carregamento do lado do cliente. Se você for navegando pelas páginas vera um carregamento extremamente rápido e eficaz.
 
