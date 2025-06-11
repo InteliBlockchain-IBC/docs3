@@ -1,6 +1,6 @@
 ---
 title: Crie sua Wallet Web3 (MetaMask)
-sidebar_label: '2.2.Criação da wallet'
+sidebar_label: '2.2. Criação da wallet'
 sidebar_position: 3
 ---
 
