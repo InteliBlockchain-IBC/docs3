@@ -8,3 +8,33 @@ testa:
     x: viniciustestap1
     linkedin: vinicius-testa-passos
     github: VinTesta
+
+cryptovictor:
+  name: Victor Garcia dos Santos
+  title: Computer Scientist and Blockchain Engineer
+  url: mailto:gds.victor09@gmail.com
+  image_url: https://avatars.githubusercontent.com/u/89162257
+  page: true
+  socials:
+    x: CryptoV1ct0r
+    linkedin: victor-garcia-dos-santos
+    github: CryptoVictor
+
+arielly:
+  name: Maria Arielly Lima de Oliveira
+  title: Software Engineer
+  url: mailto:maria.lima@sou.inteli.edu.br
+  image_url: https://avatars.githubusercontent.com/u/194326849
+  page: true
+  socials:
+    linkedin: maria-arielly
+    github: arielly-lima
+
+francisco:
+  name: Francisco de Araujo Ferreira Filho
+  title: Software Engineer
+  url: mailto:francisco.filho@sou.inteli.edu.br
+  image_url: https://avatars.githubusercontent.com/u/194029848
+  page: true
+  socials:
+    github: fr4ncisco7
