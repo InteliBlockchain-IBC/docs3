@@ -82,8 +82,8 @@ No terminal, ainda dentro da pasta do projeto, rode:
 
 ```bash
 forge build
-Se tudo estiver certo, você verá algo como:
 ```
+Se tudo estiver certo, você verá algo como:
 
 ```bash
 [⠊] Compiling...
