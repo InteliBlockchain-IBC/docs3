@@ -23,16 +23,16 @@ Dentro da pasta, inicialize o projeto:
 forge init
 ```
 Isso criará a seguinte estrutura de pastas:
-hello-world/
-├── .github/
-├── lib/
-├── script/
-├── src/
-├── test/
-├── .gitignore
-├── .gitmodules
-├── foundry.toml
-└── README.md
+hello-world/ <br/>
+├── .github/ <br/>
+├── lib/ <br/>
+├── script/<br/>
+├── src/<br/>
+├── test/<br/>
+├── .gitignore<br/>
+├── .gitmodules<br/>
+├── foundry.toml<br/>
+└── README.md<br/>
 
 ## Passo 3: Limpeza da estrutura
 Para este projeto básico, podemos apagar as pastas que não serão usadas agora:
