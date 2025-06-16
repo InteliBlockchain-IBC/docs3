@@ -4,10 +4,34 @@
         <title>Docs³ Blog</title>
         <link>https://github.com/docs3/blog</link>
         <description>Docs³ Blog</description>
-        <lastBuildDate>Sun, 08 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[High Block]]></title>
+            <link>https://github.com/docs3/blog/first-project</link>
+            <guid>https://github.com/docs3/blog/first-project</guid>
+            <pubDate>Mon, 09 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 O Início de uma Nova Era no Inteli Blockchain]]></description>
+            <content:encoded><![CDATA[<p>🚀 <strong>O Início de uma Nova Era no Inteli Blockchain</strong></p>
+<p>O <strong>primeiro projeto oficial</strong> (High Block) do Inteli Blockchain — um passo fundamental para quem deseja entrar no mundo da Web3 com o pé direito.</p>
+<p>Vamos construir <strong>juntos</strong> uma DApp completa, do zero ao deployment, explorando todas as camadas de desenvolvimento:</p>
+<ul>
+<li>Criação de uma <strong>wallet</strong></li>
+<li>Desenvolvimento de <strong>smart contracts</strong></li>
+<li>Backend em Web3</li>
+<li>Frontend funcional</li>
+<li><strong>Testes com Foundry</strong></li>
+<li>Integração e boas práticas</li>
+</ul>
+<p>A ideia é <strong>ensinar criando</strong>, para que qualquer membro — independentemente do seu nível atual — consiga participar, aprender e entregar algo concreto. Este será o <strong>legado técnico e colaborativo</strong> que queremos passar para as futuras gerações do Inteli Blockchain.</p>
+<p>🧱 Este projeto é apenas o começo. Queremos que este post e esta iniciativa ecoem por muitos e muitos ciclos dentro do Inteli. Que seja referência, ponto de partida e inspiração.</p>
+<p><strong>"Running Bitcoin!"</strong> – Hall Finney</p>
+<p><img decoding="async" loading="lazy" alt="Blockchain" src="https://github.com/docs3/assets/images/blockchain-7788fb35c48ed752051ce4e7f4e8e37c.jpeg" width="3000" height="1688" class="img_ev3q"></p>]]></content:encoded>
+            <category>Web3</category>
+            <category>Blockchain Basics</category>
+        </item>
         <item>
             <title><![CDATA[Primeira versão da documentação]]></title>
             <link>https://github.com/docs3/blog/first-post</link>
