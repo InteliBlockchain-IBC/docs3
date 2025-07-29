@@ -2,11 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/docs3/blog</id>
     <title>Docs³ Blog</title>
-    <updated>2025-07-22T00:00:00.000Z</updated>
+    <updated>2025-07-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/docs3/blog"/>
     <subtitle>Docs³ Blog</subtitle>
     <icon>https://github.com/docs3/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Believe in SomΞTHing]]></title>
+        <id>https://github.com/docs3/blog/third-post</id>
+        <link href="https://github.com/docs3/blog/third-post"/>
+        <updated>2025-07-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Fala pessoal, tudo certo?]]></summary>
+        <content type="html"><![CDATA[<p><strong>Fala pessoal, tudo certo?</strong><br>
+<em>CryptoVictor</em> aqui, e hoje o papo é especial demais: o <strong>Ethereum completa 10 anos</strong> neste 30 de julho de 2025.<br>
+<!-- -->E não é só o aniversário de uma blockchain — é um momento histórico pra toda uma comunidade global.</p>
+<hr>
+<p><img decoding="async" loading="lazy" alt="Ethereum 10 anos" src="https://github.com/docs3/assets/images/ethereum10years-77aa7c17b88fc2613aac61ed43fcafde.webp" width="2560" height="1280" class="img_ev3q"></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="de-rede-a-movimento-global">De rede a movimento global<a href="https://github.com/docs3/blog/third-post#de-rede-a-movimento-global" class="hash-link" aria-label="Direct link to De rede a movimento global" title="Direct link to De rede a movimento global">​</a></h2>
+<p>Quando o Ethereum nasceu, lá em 2015, <strong>nada do que temos hoje existia</strong>. Termos como <em>Web3</em>, <em>Layer 2</em>, <em>DAOs</em>, <em>dApps</em> e <em>smart contracts</em> simplesmente <strong>não faziam parte do vocabulário</strong>.</p>
+<p>Hoje, essas palavras moldam um novo mundo digital.<br>
+<!-- -->O Ethereum não foi só uma nova blockchain — ele foi o <strong>berço de um ecossistema</strong> inteiro que continua crescendo a cada fork, upgrade, e comunidade criada.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="uma-rede-que-respira">Uma rede que respira<a href="https://github.com/docs3/blog/third-post#uma-rede-que-respira" class="hash-link" aria-label="Direct link to Uma rede que respira" title="Direct link to Uma rede que respira">​</a></h2>
+<p>Algo importante a se lembrar é como o Ethereum evoluiu <strong>absurdamente</strong> nesses 10 anos:</p>
+<ul>
+<li>Superou o <strong>DAO Attack</strong> e se reinventou com o hard fork.</li>
+<li>Mudou sua base com o <strong>The Merge</strong>, saindo do <em>Proof of Work</em> para o <em>Proof of Stake</em>.</li>
+<li>Incentivou a criação de <strong>Layer 2s</strong> como Optimism, Arbitrum, Base e zkSync.</li>
+<li>Ajudou a consolidar uma cultura própria com os <strong>ETHGlobals</strong>, hackathons, eventos e devs no mundo todo.</li>
+</ul>
+<p>Tudo isso mostra que o Ethereum <strong>não é só código. É comunidade viva</strong>. É o Infinite Garden crescendo.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-blockchain-do-mundo">A blockchain do mundo<a href="https://github.com/docs3/blog/third-post#a-blockchain-do-mundo" class="hash-link" aria-label="Direct link to A blockchain do mundo" title="Direct link to A blockchain do mundo">​</a></h2>
+<p>É verdade que não sabemos o que o futuro reserva.<br>
+<!-- -->Talvez a Solana escale ainda mais. Talvez a Cardano entregue tudo o que prometeu.</p>
+<p>Mas também é verdade que o Ethereum <strong>nunca caiu</strong>.<br>
+<!-- -->Ele resistiu a ataques, críticas, falhas e promessas de blockchains “melhores”.<br>
+<!-- -->Hoje, ele segue firme como <strong>a blockchain do mundo</strong> — viva, resiliente e em constante evolução.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="o-começo">O começo<a href="https://github.com/docs3/blog/third-post#o-come%C3%A7o" class="hash-link" aria-label="Direct link to O começo" title="Direct link to O começo">​</a></h2>
+<p>Parece piada, mas tudo começou com um jogo.<br>
+<strong>Vitalik Buterin</strong>, ainda adolescente, jogava <em>World of Warcraft</em> e ficou inconformado com a centralização.<br>
+<!-- -->Anos depois, ele criou o Ethereum — e o resto é história.</p>
+<p>Pra mim, isso não é só inspirador. É <strong>transformador</strong>, como algo tão simples para alguns, o motivou a fazer algo tão grande.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="minha-homenagem-como-builder">Minha homenagem como builder<a href="https://github.com/docs3/blog/third-post#minha-homenagem-como-builder" class="hash-link" aria-label="Direct link to Minha homenagem como builder" title="Direct link to Minha homenagem como builder">​</a></h2>
+<p>Essa é a minha homenagem, como <em>CryptoVictor</em> e membro do <strong>Inteli Blockchain</strong>, pra rede que <strong>mudou minha vida</strong>.</p>
+<p>O Ethereum não foi só uma tecnologia. Foi <strong>o começo de um novo mundo</strong> pra mim — onde pude criar, participar de hackathons, viajar, aprender, conhecer pessoas incríveis e sonhar mais alto.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-feliz-aniversário-ethereum">🎂 Feliz aniversário, Ethereum!<a href="https://github.com/docs3/blog/third-post#-feliz-anivers%C3%A1rio-ethereum" class="hash-link" aria-label="Direct link to 🎂 Feliz aniversário, Ethereum!" title="Direct link to 🎂 Feliz aniversário, Ethereum!">​</a></h2>
+<p>Obrigado Ethereum.<br>
+<!-- -->Obrigado Ethereum Foundation.</p>
+<p>De “irmã mais nova do Bitcoin” ao <strong>ponto de partida de uma revolução digital</strong>, o Ethereum está só começando.</p>
+<blockquote>
+<p><strong>Believe in somΞTHing.</strong><br>
+<!-- -->Porque acreditar em algo muda tudo.</p>
+</blockquote>
+<hr>
+<p><em>CryptoVictor, out.</em></p>
+<p><img decoding="async" loading="lazy" alt="Vitalik Buterin e Cryptovictor" src="https://github.com/docs3/assets/images/ethereum-df2ab3698560f530fe4725318259bd10.webp" width="1080" height="1080" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Victor Garcia dos Santos</name>
+            <uri>mailto:gds.victor09@gmail.com</uri>
+        </author>
+        <category label="Web3" term="Web3"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tendências da Web3 em 2025]]></title>
         <id>https://github.com/docs3/blog/second-post</id>
