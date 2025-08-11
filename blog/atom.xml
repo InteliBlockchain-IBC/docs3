@@ -2,11 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/docs3/blog</id>
     <title>Docs³ Blog</title>
-    <updated>2025-07-29T00:00:00.000Z</updated>
+    <updated>2025-08-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/docs3/blog"/>
     <subtitle>Docs³ Blog</subtitle>
     <icon>https://github.com/docs3/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Lançamento Do Site]]></title>
+        <id>https://github.com/docs3/blog/fourth-post</id>
+        <link href="https://github.com/docs3/blog/fourth-post"/>
+        <updated>2025-08-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Salve, comunidade! Aqui é o CryptoVictor e é oficial: o Inteli Blockchain agora tem um site próprio! Eu sei, à primeira vista isso pode parecer só mais um projeto de faculdade, mas a real é que isso representa muito mais. É um marco ver como o clube tem evoluído. Temos um blog, um site, realizamos inúmeros eventos — e tem muito mais vindo por aí... A comunidade nunca esteve tão viva.]]></summary>
+        <content type="html"><![CDATA[<p>Salve, comunidade! Aqui é o CryptoVictor e é oficial: o Inteli Blockchain agora tem um site próprio! Eu sei, à primeira vista isso pode parecer só mais um projeto de faculdade, mas a real é que isso representa muito mais. É um marco ver como o clube tem evoluído. Temos um blog, um site, realizamos inúmeros eventos — e tem muito mais vindo por aí... A comunidade nunca esteve tão viva.</p>
+<p><img decoding="async" loading="lazy" alt="Imagem do site" src="https://github.com/docs3/assets/images/site-585aa0ec638d9cd2a0ff48f8a078d7ef.png" width="1905" height="871" class="img_ev3q"></p>
+<p>Como membro, não tenho como não comemorar. Ver até onde chegamos é uma vitória. E o mais empolgante: isso é só o começo. Vêm aí muitos outros projetos incríveis — e mal posso esperar para compartilhar cada um deles com vocês.</p>
+<p>O Inteli Blockchain pode até ter nascido como um clube de hackathon dentro do Inteli, mas hoje é muito mais do que isso. É realmente uma comunidade, sabe?</p>
+<p>Lembro bem da minha fase lá em 2021, no quarto, sozinho, curioso, estudando Web3 e blockchain, sonhando com o dia em que eu pudesse viver tudo isso com outras pessoas que compartilhassem a mesma paixão. E hoje, isso é real.</p>
+<p>Este post é mais do que um anúncio do site. É também um agradecimento.<br>
+<!-- -->Obrigado, Inteli. Obrigado a cada pessoa do Inteli Blockchain que vive, aprende, erra e cresce junto nesse universo.<br>
+<!-- -->A gente fala sobre liberdade, tecnologia, futuro — e isso muda a vida de cada membro, inclusive a minha.</p>
+<p>Então é isso. Um sincero obrigado a todos — e não deixem de conferir o site [<a href="https://www.inteliblockchain.org/" target="_blank" rel="noopener noreferrer"><strong>LINK DO SITE AQUI</strong></a>]. Tá ficando bem legal mesmo.</p>
+<blockquote>
+<p>A gente se vê no próximo bloco.</p>
+</blockquote>
+<hr>
+<p><em>CryptoVictor, out.</em></p>
+<p><img decoding="async" loading="lazy" alt="Imagem do Inteli Blockchain" src="https://github.com/docs3/assets/images/inteliblockchain-9264d65051db6a949cea36b29d12fe52.webp" width="1080" height="1080" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Victor Garcia dos Santos</name>
+            <uri>mailto:gds.victor09@gmail.com</uri>
+        </author>
+        <category label="Web3" term="Web3"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Believe in SomΞTHing]]></title>
         <id>https://github.com/docs3/blog/third-post</id>
