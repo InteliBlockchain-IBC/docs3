@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/docs3/blog</id>
+    <id>http://docs3.inteliblockchain.org/docs3/blog</id>
     <title>Docs³ Blog</title>
     <updated>2025-08-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/docs3/blog"/>
+    <link rel="alternate" href="http://docs3.inteliblockchain.org/docs3/blog"/>
     <subtitle>Docs³ Blog</subtitle>
-    <icon>https://github.com/docs3/img/favicon.ico</icon>
+    <icon>http://docs3.inteliblockchain.org/docs3/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Lançamento Do Site]]></title>
-        <id>https://github.com/docs3/blog/fourth-post</id>
-        <link href="https://github.com/docs3/blog/fourth-post"/>
+        <id>http://docs3.inteliblockchain.org/docs3/blog/fourth-post</id>
+        <link href="http://docs3.inteliblockchain.org/docs3/blog/fourth-post"/>
         <updated>2025-08-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Salve, comunidade! Aqui é o CryptoVictor e é oficial: o Inteli Blockchain agora tem um site próprio! Eu sei, à primeira vista isso pode parecer só mais um projeto de faculdade, mas a real é que isso representa muito mais. É um marco ver como o clube tem evoluído. Temos um blog, um site, realizamos inúmeros eventos — e tem muito mais vindo por aí... A comunidade nunca esteve tão viva.]]></summary>
         <content type="html"><![CDATA[<p>Salve, comunidade! Aqui é o CryptoVictor e é oficial: o Inteli Blockchain agora tem um site próprio! Eu sei, à primeira vista isso pode parecer só mais um projeto de faculdade, mas a real é que isso representa muito mais. É um marco ver como o clube tem evoluído. Temos um blog, um site, realizamos inúmeros eventos — e tem muito mais vindo por aí... A comunidade nunca esteve tão viva.</p>
-<p><img decoding="async" loading="lazy" alt="Imagem do site" src="https://github.com/docs3/assets/images/site-585aa0ec638d9cd2a0ff48f8a078d7ef.png" width="1905" height="871" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Imagem do site" src="http://docs3.inteliblockchain.org/docs3/assets/images/site-585aa0ec638d9cd2a0ff48f8a078d7ef.png" width="1905" height="871" class="img_ev3q"></p>
 <p>Como membro, não tenho como não comemorar. Ver até onde chegamos é uma vitória. E o mais empolgante: isso é só o começo. Vêm aí muitos outros projetos incríveis — e mal posso esperar para compartilhar cada um deles com vocês.</p>
 <p>O Inteli Blockchain pode até ter nascido como um clube de hackathon dentro do Inteli, mas hoje é muito mais do que isso. É realmente uma comunidade, sabe?</p>
 <p>Lembro bem da minha fase lá em 2021, no quarto, sozinho, curioso, estudando Web3 e blockchain, sonhando com o dia em que eu pudesse viver tudo isso com outras pessoas que compartilhassem a mesma paixão. E hoje, isso é real.</p>
@@ -27,7 +27,7 @@
 </blockquote>
 <hr>
 <p><em>CryptoVictor, out.</em></p>
-<p><img decoding="async" loading="lazy" alt="Imagem do Inteli Blockchain" src="https://github.com/docs3/assets/images/inteliblockchain-9264d65051db6a949cea36b29d12fe52.webp" width="1080" height="1080" class="img_ev3q"></p>]]></content>
+<p><img decoding="async" loading="lazy" alt="Imagem do Inteli Blockchain" src="http://docs3.inteliblockchain.org/docs3/assets/images/inteliblockchain-9264d65051db6a949cea36b29d12fe52.webp" width="1080" height="1080" class="img_ev3q"></p>]]></content>
         <author>
             <name>Victor Garcia dos Santos</name>
             <uri>mailto:gds.victor09@gmail.com</uri>
@@ -36,22 +36,22 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Believe in SomΞTHing]]></title>
-        <id>https://github.com/docs3/blog/third-post</id>
-        <link href="https://github.com/docs3/blog/third-post"/>
+        <id>http://docs3.inteliblockchain.org/docs3/blog/third-post</id>
+        <link href="http://docs3.inteliblockchain.org/docs3/blog/third-post"/>
         <updated>2025-07-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Fala pessoal, tudo certo?]]></summary>
         <content type="html"><![CDATA[<p><strong>Fala pessoal, tudo certo?</strong><br>
 <em>CryptoVictor</em> aqui, e hoje o papo é especial demais: o <strong>Ethereum completa 10 anos</strong> neste 30 de julho de 2025.<br>
 <!-- -->E não é só o aniversário de uma blockchain — é um momento histórico pra toda uma comunidade global.</p>
 <hr>
-<p><img decoding="async" loading="lazy" alt="Ethereum 10 anos" src="https://github.com/docs3/assets/images/ethereum10years-77aa7c17b88fc2613aac61ed43fcafde.webp" width="2560" height="1280" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Ethereum 10 anos" src="http://docs3.inteliblockchain.org/docs3/assets/images/ethereum10years-77aa7c17b88fc2613aac61ed43fcafde.webp" width="2560" height="1280" class="img_ev3q"></p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="de-rede-a-movimento-global">De rede a movimento global<a href="https://github.com/docs3/blog/third-post#de-rede-a-movimento-global" class="hash-link" aria-label="Direct link to De rede a movimento global" title="Direct link to De rede a movimento global">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="de-rede-a-movimento-global">De rede a movimento global<a href="http://docs3.inteliblockchain.org/docs3/blog/third-post#de-rede-a-movimento-global" class="hash-link" aria-label="Direct link to De rede a movimento global" title="Direct link to De rede a movimento global">​</a></h2>
 <p>Quando o Ethereum nasceu, lá em 2015, <strong>nada do que temos hoje existia</strong>. Termos como <em>Web3</em>, <em>Layer 2</em>, <em>DAOs</em>, <em>dApps</em> e <em>smart contracts</em> simplesmente <strong>não faziam parte do vocabulário</strong>.</p>
 <p>Hoje, essas palavras moldam um novo mundo digital.<br>
 <!-- -->O Ethereum não foi só uma nova blockchain — ele foi o <strong>berço de um ecossistema</strong> inteiro que continua crescendo a cada fork, upgrade, e comunidade criada.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="uma-rede-que-respira">Uma rede que respira<a href="https://github.com/docs3/blog/third-post#uma-rede-que-respira" class="hash-link" aria-label="Direct link to Uma rede que respira" title="Direct link to Uma rede que respira">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="uma-rede-que-respira">Uma rede que respira<a href="http://docs3.inteliblockchain.org/docs3/blog/third-post#uma-rede-que-respira" class="hash-link" aria-label="Direct link to Uma rede que respira" title="Direct link to Uma rede que respira">​</a></h2>
 <p>Algo importante a se lembrar é como o Ethereum evoluiu <strong>absurdamente</strong> nesses 10 anos:</p>
 <ul>
 <li>Superou o <strong>DAO Attack</strong> e se reinventou com o hard fork.</li>
@@ -61,24 +61,24 @@
 </ul>
 <p>Tudo isso mostra que o Ethereum <strong>não é só código. É comunidade viva</strong>. É o Infinite Garden crescendo.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-blockchain-do-mundo">A blockchain do mundo<a href="https://github.com/docs3/blog/third-post#a-blockchain-do-mundo" class="hash-link" aria-label="Direct link to A blockchain do mundo" title="Direct link to A blockchain do mundo">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-blockchain-do-mundo">A blockchain do mundo<a href="http://docs3.inteliblockchain.org/docs3/blog/third-post#a-blockchain-do-mundo" class="hash-link" aria-label="Direct link to A blockchain do mundo" title="Direct link to A blockchain do mundo">​</a></h2>
 <p>É verdade que não sabemos o que o futuro reserva.<br>
 <!-- -->Talvez a Solana escale ainda mais. Talvez a Cardano entregue tudo o que prometeu.</p>
 <p>Mas também é verdade que o Ethereum <strong>nunca caiu</strong>.<br>
 <!-- -->Ele resistiu a ataques, críticas, falhas e promessas de blockchains “melhores”.<br>
 <!-- -->Hoje, ele segue firme como <strong>a blockchain do mundo</strong> — viva, resiliente e em constante evolução.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="o-começo">O começo<a href="https://github.com/docs3/blog/third-post#o-come%C3%A7o" class="hash-link" aria-label="Direct link to O começo" title="Direct link to O começo">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="o-começo">O começo<a href="http://docs3.inteliblockchain.org/docs3/blog/third-post#o-come%C3%A7o" class="hash-link" aria-label="Direct link to O começo" title="Direct link to O começo">​</a></h2>
 <p>Parece piada, mas tudo começou com um jogo.<br>
 <strong>Vitalik Buterin</strong>, ainda adolescente, jogava <em>World of Warcraft</em> e ficou inconformado com a centralização.<br>
 <!-- -->Anos depois, ele criou o Ethereum — e o resto é história.</p>
 <p>Pra mim, isso não é só inspirador. É <strong>transformador</strong>, como algo tão simples para alguns, o motivou a fazer algo tão grande.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="minha-homenagem-como-builder">Minha homenagem como builder<a href="https://github.com/docs3/blog/third-post#minha-homenagem-como-builder" class="hash-link" aria-label="Direct link to Minha homenagem como builder" title="Direct link to Minha homenagem como builder">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="minha-homenagem-como-builder">Minha homenagem como builder<a href="http://docs3.inteliblockchain.org/docs3/blog/third-post#minha-homenagem-como-builder" class="hash-link" aria-label="Direct link to Minha homenagem como builder" title="Direct link to Minha homenagem como builder">​</a></h2>
 <p>Essa é a minha homenagem, como <em>CryptoVictor</em> e membro do <strong>Inteli Blockchain</strong>, pra rede que <strong>mudou minha vida</strong>.</p>
 <p>O Ethereum não foi só uma tecnologia. Foi <strong>o começo de um novo mundo</strong> pra mim — onde pude criar, participar de hackathons, viajar, aprender, conhecer pessoas incríveis e sonhar mais alto.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-feliz-aniversário-ethereum">🎂 Feliz aniversário, Ethereum!<a href="https://github.com/docs3/blog/third-post#-feliz-anivers%C3%A1rio-ethereum" class="hash-link" aria-label="Direct link to 🎂 Feliz aniversário, Ethereum!" title="Direct link to 🎂 Feliz aniversário, Ethereum!">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-feliz-aniversário-ethereum">🎂 Feliz aniversário, Ethereum!<a href="http://docs3.inteliblockchain.org/docs3/blog/third-post#-feliz-anivers%C3%A1rio-ethereum" class="hash-link" aria-label="Direct link to 🎂 Feliz aniversário, Ethereum!" title="Direct link to 🎂 Feliz aniversário, Ethereum!">​</a></h2>
 <p>Obrigado Ethereum.<br>
 <!-- -->Obrigado Ethereum Foundation.</p>
 <p>De “irmã mais nova do Bitcoin” ao <strong>ponto de partida de uma revolução digital</strong>, o Ethereum está só começando.</p>
@@ -88,7 +88,7 @@
 </blockquote>
 <hr>
 <p><em>CryptoVictor, out.</em></p>
-<p><img decoding="async" loading="lazy" alt="Vitalik Buterin e Cryptovictor" src="https://github.com/docs3/assets/images/ethereum-df2ab3698560f530fe4725318259bd10.webp" width="1080" height="1080" class="img_ev3q"></p>]]></content>
+<p><img decoding="async" loading="lazy" alt="Vitalik Buterin e Cryptovictor" src="http://docs3.inteliblockchain.org/docs3/assets/images/ethereum-df2ab3698560f530fe4725318259bd10.webp" width="1080" height="1080" class="img_ev3q"></p>]]></content>
         <author>
             <name>Victor Garcia dos Santos</name>
             <uri>mailto:gds.victor09@gmail.com</uri>
@@ -97,39 +97,39 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Tendências da Web3 em 2025]]></title>
-        <id>https://github.com/docs3/blog/second-post</id>
-        <link href="https://github.com/docs3/blog/second-post"/>
+        <id>http://docs3.inteliblockchain.org/docs3/blog/second-post</id>
+        <link href="http://docs3.inteliblockchain.org/docs3/blog/second-post"/>
         <updated>2025-07-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Opa galera, e aí!]]></summary>
         <content type="html"><![CDATA[<p><strong>Opa galera, e aí!</strong><br>
 <!-- -->Aqui é o <em>CryptoVictor</em> e hoje vamos conversar sobre o que eu vejo como as principais tendências que a Web3 está seguindo em 2025. Falo isso baseado no que vi da comunidade mesmo ao longo deste ano — e isso inclui diferentes esferas da Web3: a EVM, Solana, tecnologias como Chainlink, e até a galera da esfera bitcoiner.</p>
 <p>Tive o privilégio de participar de vários eventos gigantes de cripto em 2025, como <strong>ETHGlobal Cannes</strong>, <strong>Chiliz Paris</strong>, <strong>Casa21</strong>, <strong>MetaMask Builders Night</strong>, <strong>Modular Carnival</strong>, <strong>Vega House</strong>, entre muitos outros — e em todos eles percebi que a comunidade está bem focada em alguns pontos bem específicos.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ia-em-web3">IA em Web3<a href="https://github.com/docs3/blog/second-post#ia-em-web3" class="hash-link" aria-label="Direct link to IA em Web3" title="Direct link to IA em Web3">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ia-em-web3">IA em Web3<a href="http://docs3.inteliblockchain.org/docs3/blog/second-post#ia-em-web3" class="hash-link" aria-label="Direct link to IA em Web3" title="Direct link to IA em Web3">​</a></h2>
 <p>O primeiro ponto — e talvez o mais falado — é sobre <strong>IA</strong>, a tecnologia do momento. Vejo que <em>IA na Web3</em> é o assunto mais discutido hoje em dia. Startups pipocam a cada canto, principalmente agora com a explosão dos <strong>Agentes Autônomos</strong> (tipo AutoGPTs descentralizados, conectando dApps, carteiras e oráculos de forma automatizada).</p>
 <p>E essa é, na real, uma das tecnologias que mais <strong>faz sentido junto da Web3</strong>: dados são a base da IA, e Web3 tem como princípio a soberania sobre os próprios dados. Sem falar da questão da identidade digital e da privacidade, que voltaram com tudo.</p>
 <p>Tive conversas bem massa com nomes grandes de IA no ETHCannes, e muitos deles citaram o potencial de projetos como a <strong>Worldcoin</strong> (polêmico e esquisito, mas com uma proposta bem interessante), que já dá uma amostra do uso prático de identidade global integrada com IA e blockchain.</p>
-<center><p><img decoding="async" loading="lazy" alt="Worldcoin" src="https://github.com/docs3/assets/images/worldcoin-159f41a2ca30d3201d34b92b514374e5.png" width="320" height="320" class="img_ev3q"></p></center>
+<center><p><img decoding="async" loading="lazy" alt="Worldcoin" src="http://docs3.inteliblockchain.org/docs3/assets/images/worldcoin-159f41a2ca30d3201d34b92b514374e5.png" width="320" height="320" class="img_ev3q"></p></center>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rwas-e-oráculos">RWAs e Oráculos<a href="https://github.com/docs3/blog/second-post#rwas-e-or%C3%A1culos" class="hash-link" aria-label="Direct link to RWAs e Oráculos" title="Direct link to RWAs e Oráculos">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rwas-e-oráculos">RWAs e Oráculos<a href="http://docs3.inteliblockchain.org/docs3/blog/second-post#rwas-e-or%C3%A1culos" class="hash-link" aria-label="Direct link to RWAs e Oráculos" title="Direct link to RWAs e Oráculos">​</a></h2>
 <p>Agora, saindo um pouco das tecnologias hypadas, bora falar de um <strong>"cavalo velho"</strong> da Web3 que continua firme: os <strong>RWAs (Real World Assets)</strong>.</p>
 <p>RWAs basicamente são ativos do mundo real tokenizados na blockchain — e isso inclui imóveis, ações, títulos, commodities, entre outros. Muita gente fala que esse pode ser o <strong>maior caso de uso da economia descentralizada</strong>.</p>
 <p>Só que… ainda não rolou o boom. A <strong>questão regulatória</strong> continua sendo o grande gargalo. Nenhum projeto realmente escalou globalmente ainda — embora no Brasil a gente já veja algumas iniciativas legais, nada concreto realmente foi feito.</p>
 <p>Um ponto importante é que nesta tecnologia o papel dos <strong>oráculos</strong>, principalmente a <strong>Chainlink</strong>, é essencial aqui. É ela quem conecta dados reais a blockchain de forma segura e ver os recentes lançamentos dela como o <strong>CCIP (Cross-Chain Interoperability Protocol)</strong>, animou bastante quem vê os RWAs como o futuro.</p>
-<p><img decoding="async" loading="lazy" alt="Chainlink" src="https://github.com/docs3/assets/images/chainlink-3ec9306c1165c2761599533ff5b61936.png" width="925" height="285" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Chainlink" src="http://docs3.inteliblockchain.org/docs3/assets/images/chainlink-3ec9306c1165c2761599533ff5b61936.png" width="925" height="285" class="img_ev3q"></p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="criptografia-e-privacidade">Criptografia e Privacidade<a href="https://github.com/docs3/blog/second-post#criptografia-e-privacidade" class="hash-link" aria-label="Direct link to Criptografia e Privacidade" title="Direct link to Criptografia e Privacidade">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="criptografia-e-privacidade">Criptografia e Privacidade<a href="http://docs3.inteliblockchain.org/docs3/blog/second-post#criptografia-e-privacidade" class="hash-link" aria-label="Direct link to Criptografia e Privacidade" title="Direct link to Criptografia e Privacidade">​</a></h2>
 <p>Você pode estar se perguntando: <em>“Ué, privacidade e criptografia como tendência? Isso já não é uma das bases da Web3, CryptoVictor?”</em></p>
 <p>E eu te digo: <strong>sim, é base</strong>, mas estamos entrando numa nova fase disso.<br>
 <!-- -->Não é só <strong>ZK (Zero-Knowledge)</strong> — que, aliás, continua evoluindo com força —, mas também <strong>soluções novas em L2</strong>, <strong>abstração de contas (Account Abstraction)</strong>, e a galera já preocupada com <strong>criptografia pós-quântica</strong>, mesmo sem um problema imediato.</p>
 <p>A quantidade de soluções de privacidade que surgiram em 2024 e agora em 2025 é absurda. Protocolos como <strong>Railgun</strong>, <strong>Aztec</strong>, e as melhorias nas <strong>bridges</strong> mostram como o ecossistema está finalmente conseguindo equilibrar segurança e usabilidade.</p>
 <p>Até mesmo os bitcoiners, que historicamente eram contra mudanças na base do protocolo, estão explorando novos recursos via <strong>Ordinals</strong>, <strong>Covenants</strong> e <strong>BitVM</strong>.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="uma-nota-sobre-maturidade">Uma nota sobre maturidade<a href="https://github.com/docs3/blog/second-post#uma-nota-sobre-maturidade" class="hash-link" aria-label="Direct link to Uma nota sobre maturidade" title="Direct link to Uma nota sobre maturidade">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="uma-nota-sobre-maturidade">Uma nota sobre maturidade<a href="http://docs3.inteliblockchain.org/docs3/blog/second-post#uma-nota-sobre-maturidade" class="hash-link" aria-label="Direct link to Uma nota sobre maturidade" title="Direct link to Uma nota sobre maturidade">​</a></h2>
 <p>Hoje a Web3 parece mais madura. Já não vemos tantos projetos lançando tokens só por lançar, nem promessas milagrosas de 1000x em uma semana (apesar de isso ainda existir e sempre existir). A diferença é que <strong>as soluções reais estão se sobressaindo</strong>.</p>
 <p>Dá pra perceber isso até na linguagem dos investidores e builders nos eventos: é tudo mais técnico, mais pé no chão, mais sério.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusão">Conclusão<a href="https://github.com/docs3/blog/second-post#conclus%C3%A3o" class="hash-link" aria-label="Direct link to Conclusão" title="Direct link to Conclusão">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusão">Conclusão<a href="http://docs3.inteliblockchain.org/docs3/blog/second-post#conclus%C3%A3o" class="hash-link" aria-label="Direct link to Conclusão" title="Direct link to Conclusão">​</a></h2>
 <p>A real é que a Web3 <strong>não para</strong>. E pra mim, o <em>boom</em> desse universo está só começando.<br>
 <!-- -->Sim, o mercado está mais cauteloso, mas também <strong>mais preparado</strong>. As barreiras regulatórias estão caindo aos poucos, e cada vez mais vemos soluções reais e com impacto direto nas pessoas.</p>
 <p>Sem falar na própria <strong>alta do Bitcoin</strong> recente, que trouxe de volta os olhares do mercado tradicional. Mas dessa vez, com mais estrutura, mais casos de uso, e uma comunidade global ainda mais forte.</p>
@@ -137,7 +137,7 @@
 A Web3 tá só começando a mostrar do que é capaz.
 É só o começo da próxima revolução digital — e o topo já tá logo ali. 🚀</p>
 <p><em>CryptoVictor, out.</em></p>
-<p><img decoding="async" loading="lazy" alt="Evento" src="https://github.com/docs3/assets/images/foto-0282870477263d76f6b646bcd8a6796a.jpg" width="1600" height="1067" class="img_ev3q"></p>]]></content>
+<p><img decoding="async" loading="lazy" alt="Evento" src="http://docs3.inteliblockchain.org/docs3/assets/images/foto-0282870477263d76f6b646bcd8a6796a.jpg" width="1600" height="1067" class="img_ev3q"></p>]]></content>
         <author>
             <name>Victor Garcia dos Santos</name>
             <uri>mailto:gds.victor09@gmail.com</uri>
@@ -146,8 +146,8 @@ A Web3 tá só começando a mostrar do que é capaz.
     </entry>
     <entry>
         <title type="html"><![CDATA[High Block]]></title>
-        <id>https://github.com/docs3/blog/first-project</id>
-        <link href="https://github.com/docs3/blog/first-project"/>
+        <id>http://docs3.inteliblockchain.org/docs3/blog/first-project</id>
+        <link href="http://docs3.inteliblockchain.org/docs3/blog/first-project"/>
         <updated>2025-06-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[🚀 O Início de uma Nova Era no Inteli Blockchain]]></summary>
         <content type="html"><![CDATA[<p>🚀 <strong>O Início de uma Nova Era no Inteli Blockchain</strong></p>
@@ -164,7 +164,7 @@ A Web3 tá só começando a mostrar do que é capaz.
 <p>A ideia é <strong>ensinar criando</strong>, para que qualquer membro — independentemente do seu nível atual — consiga participar, aprender e entregar algo concreto. Este será o <strong>legado técnico e colaborativo</strong> que queremos passar para as futuras gerações do Inteli Blockchain.</p>
 <p>🧱 Este projeto é apenas o começo. Queremos que este post e esta iniciativa ecoem por muitos e muitos ciclos dentro do Inteli. Que seja referência, ponto de partida e inspiração.</p>
 <p><strong>"Running Bitcoin!"</strong> – Hall Finney</p>
-<p><img decoding="async" loading="lazy" alt="Blockchain" src="https://github.com/docs3/assets/images/blockchain-7788fb35c48ed752051ce4e7f4e8e37c.jpeg" width="3000" height="1688" class="img_ev3q"></p>]]></content>
+<p><img decoding="async" loading="lazy" alt="Blockchain" src="http://docs3.inteliblockchain.org/docs3/assets/images/blockchain-7788fb35c48ed752051ce4e7f4e8e37c.jpeg" width="3000" height="1688" class="img_ev3q"></p>]]></content>
         <author>
             <name>Victor Garcia dos Santos</name>
             <uri>mailto:gds.victor09@gmail.com</uri>
@@ -182,14 +182,14 @@ A Web3 tá só começando a mostrar do que é capaz.
     </entry>
     <entry>
         <title type="html"><![CDATA[Primeira versão da documentação]]></title>
-        <id>https://github.com/docs3/blog/first-post</id>
-        <link href="https://github.com/docs3/blog/first-post"/>
+        <id>http://docs3.inteliblockchain.org/docs3/blog/first-post</id>
+        <link href="http://docs3.inteliblockchain.org/docs3/blog/first-post"/>
         <updated>2025-06-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Esse post marca o início da documentação oficial do Inteli Blockchain.]]></summary>
         <content type="html"><![CDATA[<p>Esse post marca o início da documentação oficial do Inteli Blockchain.</p>
 <p>É também para eu dizer que estou muito ansioso para o que vamos contruir juntos nesse ano e nos que vem a seguir. Espero que esse legado seja levado a diante e que possamos contribuir ainda mais para a comunidade Web3 como um todo.</p>
 <p>"A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original." - Albert Einstein</p>
-<p><img decoding="async" loading="lazy" alt="Gatinho Soco" src="https://github.com/docs3/assets/images/giphy-45af0abd2ab79029531e4aa8c1249873.gif" width="220" height="126" class="img_ev3q"></p>]]></content>
+<p><img decoding="async" loading="lazy" alt="Gatinho Soco" src="http://docs3.inteliblockchain.org/docs3/assets/images/giphy-45af0abd2ab79029531e4aa8c1249873.gif" width="220" height="126" class="img_ev3q"></p>]]></content>
         <author>
             <name>Vinicius Testa Passos</name>
             <uri>mailto:viniciustestapassos@gmail.com</uri>
