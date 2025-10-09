@@ -134,6 +134,170 @@ A Web3 tá só começando a mostrar do que é capaz.
             <category>Web3</category>
         </item>
         <item>
+            <title><![CDATA[Inteli Day no Inteli Blockchain]]></title>
+            <link>http://docs3.inteliblockchain.org/blog/inteli-day</link>
+            <guid>http://docs3.inteliblockchain.org/blog/inteli-day</guid>
+            <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[O Inteli Day é um dos eventos mais importantes do nosso calendário acadêmico do Inteli. É o dia em que abrimos as portas para futuros alunos, apresentamos nossos cursos, projetos e as atividades dos clubes estudantis. Como membros do Inteli Blockchain, queríamos mais do que apenas apresentar slides; queríamos construir algo real e que resolvesse um problema real do evento.]]></description>
+            <content:encoded><![CDATA[<p>O Inteli Day é um dos eventos mais importantes do nosso calendário acadêmico do <a href="https://www.inteli.edu.br/" target="_blank" rel="noopener noreferrer">Inteli</a>. É o dia em que abrimos as portas para futuros alunos, apresentamos nossos cursos, projetos e as atividades dos clubes estudantis. Como membros do Inteli Blockchain, queríamos mais do que apenas apresentar slides; queríamos construir algo real e que resolvesse um problema real do evento.</p>
+<div align="center"><img src="http://docs3.inteliblockchain.org/assets/images/inteli-day-0f2a49698939d1d37f74f61a98b4f9fb.png" alt="Detalhes da missão do projeto" width="80%"></div>
+<p>Quem já participou desse evento sabe como ele pode ser intenso. Com diversas palestras, ativações e stands, e durante a apresentação dos clubes muitos visitantes ficavam perdidos, sem saber qual clube visitar ou qual atividade seguir. Para alguns clubes, isso significava uma dificuldade em atrair visitantes e às vezes acontecia de faltarem brindes e recompensas para oferecer a quem participava de suas atividades.</p>
+<p>Dessa forma, a pergunta que nos guiou foi: como poderíamos usar a tecnologia blockchain para criar uma experiência mais interativa, gamificada e que deixasse uma marca positiva tanto para os visitantes quanto para os clubes?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-solução-uma-plataforma-de-recompensas-digitais-com-nfts">A Solução: Uma Plataforma de Recompensas Digitais com NFTs<a href="http://docs3.inteliblockchain.org/blog/inteli-day#a-solu%C3%A7%C3%A3o-uma-plataforma-de-recompensas-digitais-com-nfts" class="hash-link" aria-label="Direct link to A Solução: Uma Plataforma de Recompensas Digitais com NFTs" title="Direct link to A Solução: Uma Plataforma de Recompensas Digitais com NFTs">​</a></h2>
+<p>Nossa resposta foi construir uma solução completa para a emissão de NFTs. A ideia era simples: cada clube teria a capacidade de criar e distribuir NFTs exclusivos como "selos digitais" para os alunos que visitassem seu stand.</p>
+<p>Isso transformaria a visitação em uma espécie de "caça ao tesouro", incentivando os alunos a explorarem os diferentes clubes para colecionar os ativos digitais. Para os clubes, seria uma forma de engajar o público e oferecer uma recompensa verificável e tecnológica. E para que isso funcionasse, a solução precisava atender a três requisitos principais:</p>
+<ol>
+<li>
+<p>Custos de Mint Baixos: Para viabilizar a distribuição em massa, precisávamos de uma solução muito barata.</p>
+</li>
+<li>
+<p>Experiência de Usuário Simples: O processo deveria ser fácil tanto para o clube (emitir) quanto para o aluno (receber), sem a necessidade de conhecimentos técnicos aprofundados.</p>
+</li>
+<li>
+<p>Observabilidade e Controle: Precisávamos de um backend para gerenciar tudo, com controle de chaves, idempotência e escalabilidade.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="arquitetura-técnica-da-solução">Arquitetura Técnica da Solução<a href="http://docs3.inteliblockchain.org/blog/inteli-day#arquitetura-t%C3%A9cnica-da-solu%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Arquitetura Técnica da Solução" title="Direct link to Arquitetura Técnica da Solução">​</a></h2>
+<p>Para tirar o projeto do papel, desenhamos uma arquitetura, combinando o poder da blockchain Solana com a flexibilidade da AWS e a organização do NestJS.</p>
+<ul>
+<li>
+<p>Backend: NestJS (REST), escolhido por sua arquitetura modular e uso de TypeScript, o que facilitou a organização dos módulos (clubs, nft, mint, solana, etc.).</p>
+</li>
+<li>
+<p>Blockchain: Solana, escolhida por suas taxas baixas e alta velocidade de transação. Utilizamos dois padrões principais da Metaplex:</p>
+<ul>
+<li>
+<p>MPL Core: Para criar as coleções "mãe" de cada clube, estabelecendo sua identidade on-chain.</p>
+</li>
+<li>
+<p>Compressed NFTs (cNFTs) via Bubblegum: Usando Árvores Merkle, reduzimos drasticamente o custo de mint de cada NFT, tornando viável a emissão de milhares de certificados a um custo muito baixo.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Armazenamento (AWS):</p>
+<ul>
+<li>
+<p>AWS S3: Dividimos o uso em dois buckets: um público, para armazenar as imagens e os metadados (JSON) dos NFTs, garantindo que qualquer carteira ou explorador pudesse renderizá-los instantaneamente. E um bucket privado e versionado para guardar as chaves privadas das autoridades dos clubes, devidamente cifradas.</p>
+</li>
+<li>
+<p>DynamoDB: Utilizamos um design de tabela única com chaves primárias e secundárias (PK/SK e GSIs) para armazenar os perfis dos clubes, os templates dos NFTs e os logs de mint. O modelo "PAY_PER_REQUEST" garantiu que só pagaríamos pelo que usássemos, com escalabilidade garantida.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="como-a-solana-foi-utilizada">Como a Solana Foi Utilizada<a href="http://docs3.inteliblockchain.org/blog/inteli-day#como-a-solana-foi-utilizada" class="hash-link" aria-label="Direct link to Como a Solana Foi Utilizada" title="Direct link to Como a Solana Foi Utilizada">​</a></h2>
+<p>A escolha da Solana foi motivada por garantir que a solução tivesse um desempenho rápido e de baixo custo, e a forma como usamos seus recursos foi um dos grandes diferenciais, sendo esses:</p>
+<ol>
+<li>Coleções com MPL Core:</li>
+</ol>
+<p>Cada clube cadastrado na plataforma tinha sua própria coleção de NFTs criada on-chain usando o padrão MPL Core. Essa coleção funcionava como a identidade verificável do clube no mundo digital. A aplicação pagava pela criação da coleção, mas a autoridade de atualização era delegada à chave do clube, garantindo sua autonomia.</p>
+<ol start="2">
+<li>Mints em Massa com Compressed NFTs (cNFTs):</li>
+</ol>
+<p>Este foi o ponto-chave para a viabilidade econômica. Em vez de mintar NFTs tradicionais, que exigem a criação de uma conta on-chain para cada um, usamos a compressão de estado (State Compression).</p>
+<ul>
+<li>
+<p>Árvore Merkle Global: Para otimizar ainda mais, criamos uma única Árvore Merkle global para ser compartilhada por todos os clubes. Isso significa que o custo de "aluguel" (rent) para a criação da árvore foi pago apenas uma vez e amortizado entre todos os mints do evento. Um ponteiro no nosso banco de dados (APP#GLOBAL / COMPRESSION#ACTIVE) nos permitia trocar a árvore ativa caso a atual ficasse cheia, sem precisar alterar o código da aplicação.</p>
+</li>
+<li>
+<p>O Fluxo de Mint: Quando um aluno escaneava um QR Code no stand de um clube, nossa API recebia o endereço de sua carteira e disparava o mint de um cNFT. A transação era paga pela nossa tesouraria, o dono do NFT era o aluno e a autoridade lógica era o clube. O resultado? Um NFT entregue na carteira do aluno em segundos, a um custo de uma fração de centavo.</p>
+</li>
+</ul>
+<ol start="3">
+<li>Idempotência e Segurança:</li>
+</ol>
+<p>Para evitar mints duplicados ou fraudes, nosso sistema criava um registro no DynamoDB (CLUB# / CMINT#) antes de cada transação. Se uma tentativa de mint para o mesmo aluno e mesma missão ocorresse novamente, o sistema a bloqueava.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="como-foi-na-prática-a-jornada-do-visitante-no-app">Como Foi na Prática: A Jornada do Visitante no App<a href="http://docs3.inteliblockchain.org/blog/inteli-day#como-foi-na-pr%C3%A1tica-a-jornada-do-visitante-no-app" class="hash-link" aria-label="Direct link to Como Foi na Prática: A Jornada do Visitante no App" title="Direct link to Como Foi na Prática: A Jornada do Visitante no App">​</a></h2>
+<p>Toda essa arquitetura de backend e blockchain só faz sentido se a experiência na ponta for fluida e divertida. Por isso, criamos uma aplicação web simples e direta para guiar os visitantes. Abaixo podemos ver como foi a jornada do usuário, tela por tela.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-o-ponto-de-partida-missões-e-descoberta">1. O Ponto de Partida: Missões e Descoberta<a href="http://docs3.inteliblockchain.org/blog/inteli-day#1-o-ponto-de-partida-miss%C3%B5es-e-descoberta" class="hash-link" aria-label="Direct link to 1. O Ponto de Partida: Missões e Descoberta" title="Direct link to 1. O Ponto de Partida: Missões e Descoberta">​</a></h3>
+<p>Ao entrar na aplicação, o visitante caía na tela de <strong>Missões</strong>. Ali, ele tinha uma visão geral do seu progresso e qual era seu próximo desafio. Cada missão era um enigma ou uma dica que apontava para um clube específico, transformando a visitação em um jogo de exploração.</p>
+<table><tbody><tr><td><img src="http://docs3.inteliblockchain.org/assets/images/pagina_inicial-0590e743de933cd9e7c38c572cbe4af1.jpeg" alt="Página inicial do projeto" width="100%"></td><td><img src="http://docs3.inteliblockchain.org/assets/images/detalhes_missao-e72aed612729c7da682e3d78dab25a84.jpeg" alt="Detalhes da missão do projeto" width="100%"></td></tr></tbody></table>
+<p><em>Legenda: À esquerda, a tela inicial com o progresso total e a missão atual. À direita, o detalhe da missão, indicando qual clube visitar.</em></p>
+<p>O usuário também podia navegar pela aba <strong>Clubes</strong> para ver a lista de todos os participantes, ler sobre suas especialidades e conferir a "Collection Pubkey" de cada um, um link direto para a identidade on-chain do clube.</p>
+<table><tbody><tr><td><img src="http://docs3.inteliblockchain.org/assets/images/clubes-7fcd3738787a447f7d698b134cf5539e.jpeg" alt="Página inicial do projeto" width="100%"></td><td><img src="http://docs3.inteliblockchain.org/assets/images/detalhes_clube-ae6fa8fe2a9d3db009261f3e0b582e4d.jpeg" alt="Detalhes da missão do projeto" width="100%"></td></tr></tbody></table>
+<p><em>Legenda: Lista de clubes participantes e o detalhe de um clube, com sua descrição e a public key da coleção na Solana.</em></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="2-a-hora-da-verdade-capturando-o-nft">2. A Hora da Verdade: Capturando o NFT<a href="http://docs3.inteliblockchain.org/blog/inteli-day#2-a-hora-da-verdade-capturando-o-nft" class="hash-link" aria-label="Direct link to 2. A Hora da Verdade: Capturando o NFT" title="Direct link to 2. A Hora da Verdade: Capturando o NFT">​</a></h4>
+<p>Quando o visitante chegava ao stand do clube correto, a mágica acontecia. Ele abria a aba <strong>Capturar</strong>, que exibia um QR Code único associado à sua carteira Solana. O representante do clube escaneava esse código com um dispositivo da organização, e nossa API fazia o resto: validava a missão e disparava o mint do cNFT direto para a carteira do aluno.</p>
+<div align="center"><img src="http://docs3.inteliblockchain.org/assets/images/captura_nft-4b3779eefe9d7ba72eea0ff2d361e36c.jpeg" alt="Detalhes da missão do projeto" width="60%"></div>
+<p><em>Legenda: A tela de captura, onde o aluno apresentava seu QR Code para o clube realizar o mint do NFT.</em></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="3-a-sala-de-troféus-sua-coleção-on-chain">3. A Sala de Troféus: Sua Coleção On-Chain<a href="http://docs3.inteliblockchain.org/blog/inteli-day#3-a-sala-de-trof%C3%A9us-sua-cole%C3%A7%C3%A3o-on-chain" class="hash-link" aria-label="Direct link to 3. A Sala de Troféus: Sua Coleção On-Chain" title="Direct link to 3. A Sala de Troféus: Sua Coleção On-Chain">​</a></h4>
+<p>Missão cumprida! O NFT recém-adquirido aparecia instantaneamente na aba <strong>NFTs</strong>, a galeria pessoal do visitante. Era a prova digital da sua jornada, mostrando todos os "selos" que ele havia coletado.</p>
+<table><tbody><tr><td><img src="http://docs3.inteliblockchain.org/assets/images/main_colecao_nft-1c479fd1a9086f44209a53bfb61a2f2d.jpeg" alt="Detalhes da missão do projeto" width="100%"></td><td><img src="http://docs3.inteliblockchain.org/assets/images/colecao_nft-e7cf4e5841e09673aa504241aac548b6.jpeg" alt="Página inicial do projeto" width="100%"></td></tr></tbody></table>
+<p><em>Legenda: A galeria de NFTs do usuário, exibindo os colecionáveis já adquiridos e os espaços para os que ainda faltavam.</em></p>
+<p>O mais legal é que cada NFT era inspecionável. Ao clicar em um deles, o usuário via todos os detalhes técnicos, incluindo o link para o metadata no S3 e, o mais importante, os <strong>Dados da Blockchain</strong>: a assinatura da transação e o Asset ID. Essa era a prova dos nove, a garantia de que aquele ativo digital era verificável, único e verdadeiramente seu.</p>
+<table><tbody><tr><td><img src="http://docs3.inteliblockchain.org/assets/images/detalhes_nft_2-dc4dcf01159a33fdd94a81a5bd7af7cb.jpeg" alt="Detalhes da missão do projeto" width="100%"></td><td><img src="http://docs3.inteliblockchain.org/assets/images/detalhes_nft-3f79b37cec7c720b877f33130c165d08.jpeg" alt="Página inicial do projeto" width="100%"></td></tr></tbody></table>
+<p><em>Legenda: Detalhes de um NFT, mostrando sua arte, raridade e os dados on-chain que comprovam sua autenticidade e posse.</em></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="4-acompanhando-o-progresso-o-perfil-do-caçador">4. Acompanhando o Progresso: O Perfil do Caçador<a href="http://docs3.inteliblockchain.org/blog/inteli-day#4-acompanhando-o-progresso-o-perfil-do-ca%C3%A7ador" class="hash-link" aria-label="Direct link to 4. Acompanhando o Progresso: O Perfil do Caçador" title="Direct link to 4. Acompanhando o Progresso: O Perfil do Caçador">​</a></h4>
+<p>Por fim, na aba <strong>Perfil</strong>, o usuário tinha um resumo completo de seu desempenho: quantos NFTs havia coletado, a porcentagem de missões concluídas e quantos clubes tinha visitado. Era o dashboard perfeito para alimentar o espírito de colecionador e incentivar a galera a completar todo o circuito.</p>
+<div align="center"><img src="http://docs3.inteliblockchain.org/assets/images/perfil_usuario-4e299cd698592c941d7843e916dee85b.jpeg" alt="Detalhes da missão do projeto" width="60%"></div>
+<p><em>Legenda: A tela de perfil, com as estatísticas de progresso do usuário no evento.</em></p>
+<p>Essa interface simples, conectada diretamente à nossa poderosa API, foi a chave para transformar um conceito técnico complexo em uma experiência de usuário divertida e recompensadora.</p>
+<p>Perfeito! Agora vamos mergulhar nos bastidores e mostrar como os clubes gerenciaram tudo isso. A experiência do organizador tinha que ser tão boa quanto a do participante.</p>
+<p>Aqui está a sugestão para a seção sobre o aplicativo dos clubes. Você pode inseri-la logo após a seção "Como Foi na Prática: A Jornada do Visitante no App".</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nos-bastidores-a-jornada-dos-clubes-no-app">Nos Bastidores: A Jornada dos Clubes no App<a href="http://docs3.inteliblockchain.org/blog/inteli-day#nos-bastidores-a-jornada-dos-clubes-no-app" class="hash-link" aria-label="Direct link to Nos Bastidores: A Jornada dos Clubes no App" title="Direct link to Nos Bastidores: A Jornada dos Clubes no App">​</a></h2>
+<p>Para que a experiência dos clubes fosse completa, a ferramenta dos deles precisava ser intuitiva e à prova de falhas. Afinal, eles estariam na linha de frente, interagindo com os alunos no meio do evento. Por isso, criamos um app de controle exclusivo para eles, conforme está nas imagens abaixo.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-o-centro-de-comando-dashboard-de-nfts">1. O Centro de Comando: Dashboard de NFTs<a href="http://docs3.inteliblockchain.org/blog/inteli-day#1-o-centro-de-comando-dashboard-de-nfts" class="hash-link" aria-label="Direct link to 1. O Centro de Comando: Dashboard de NFTs" title="Direct link to 1. O Centro de Comando: Dashboard de NFTs">​</a></h3>
+<p>Ao logar, o membro do clube acessava um dashboard com todos os "templates" de NFT que eles haviam criado. Dessa forma, buscamos criar uma tela organizada de todas as recompensas digitais disponíveis para distribuição, cada uma associada a uma missão ou atividade específica.</p>
+<div align="center"><img src="http://docs3.inteliblockchain.org/assets/images/dashboard_nft-47caced926d549e117d8147bd7fae454.jpeg" alt="Detalhes da missão do projeto" width="60%"><p><em>Legenda: O dashboard principal do clube, listando os NFTs já criados e prontos para serem distribuídos.</em></p></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-criando-a-recompensa-em-minutos">2. Criando a Recompensa em Minutos<a href="http://docs3.inteliblockchain.org/blog/inteli-day#2-criando-a-recompensa-em-minutos" class="hash-link" aria-label="Direct link to 2. Criando a Recompensa em Minutos" title="Direct link to 2. Criando a Recompensa em Minutos">​</a></h3>
+<p>A qualquer momento, o clube podia criar um novo NFT. Clicando no botão "+", eles abriam um formulário simples para fazer o upload da arte, definir o título, a descrição e a raridade. Nos bastidores, essa ação disparava nossa API, que subia a imagem para o S3, criava o arquivo de metadados JSON e salvava o template no DynamoDB, já gerando o <code>nftId</code> determinístico.</p>
+<table><tbody><tr><td><img src="http://docs3.inteliblockchain.org/assets/images/criar_nft-e0e9a72a27365b926a24034bc4b924f4.jpeg" alt="Detalhes da missão do projeto" width="100%"></td><td><img src="http://docs3.inteliblockchain.org/assets/images/detalhe_nft_clube-49eaf22db35dfd3861b8b8cdd316992b.jpeg" alt="Página inicial do projeto" width="100%"></td></tr></tbody></table>
+<p><em>Legenda: À esquerda, o formulário de criação do template do NFT. À direita, o detalhe de um template já salvo no banco de dados.</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-a-entrega-do-prêmio-mint-em-dois-cliques">3. A Entrega do Prêmio: Mint em Dois Cliques<a href="http://docs3.inteliblockchain.org/blog/inteli-day#3-a-entrega-do-pr%C3%AAmio-mint-em-dois-cliques" class="hash-link" aria-label="Direct link to 3. A Entrega do Prêmio: Mint em Dois Cliques" title="Direct link to 3. A Entrega do Prêmio: Mint em Dois Cliques">​</a></h3>
+<p>Essa era a tela mais usada durante o evento. Quando um aluno cumpria uma missão, o membro do clube abria a funcionalidade de envio. O processo era direto:</p>
+<ol>
+<li><strong>Selecionar o NFT:</strong> Escolher em uma lista qual recompensa seria entregue.</li>
+<li><strong>Informar a Carteira:</strong> Abrir a câmera para escanear o QR Code do aluno (que já continha o endereço da carteira) ou, como plano B, colar o endereço manualmente.</li>
+</ol>
+<p>Com um clique em "Confirmar", a requisição era enviada para o nosso backend, que executava todo o fluxo de mint do cNFT na Solana.</p>
+<div align="center"><img src="http://docs3.inteliblockchain.org/assets/images/enviar_nft-59d11c8b5b1f33d36cdbd8b437cc0f79.jpeg" alt="Detalhes da missão do projeto" width="60%"><p><em>Legenda: A tela de mint, onde o clube selecionava o NFT e escaneava o QR Code do aluno para enviar a recompensa.</em></p></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-tudo-registrado-histórico-de-transações">4. Tudo Registrado: Histórico de Transações<a href="http://docs3.inteliblockchain.org/blog/inteli-day#4-tudo-registrado-hist%C3%B3rico-de-transa%C3%A7%C3%B5es" class="hash-link" aria-label="Direct link to 4. Tudo Registrado: Histórico de Transações" title="Direct link to 4. Tudo Registrado: Histórico de Transações">​</a></h3>
+<p>Para garantir total transparência e controle, cada clube tinha acesso a um histórico completo de todas as transações realizadas. Era possível ver a data, qual NFT foi enviado e para qual carteira, com a opção de filtrar as buscas. Essa tela lia diretamente os logs de mint que persistimos no DynamoDB, dando ao clube uma visão clara do impacto de suas atividades.</p>
+<div align="center"><img src="http://docs3.inteliblockchain.org/assets/images/his-6a086ec17eede9ad6c6c910481c6c0a1.jpeg" alt="Detalhes da missão do projeto" width="60%"><p><em>Legenda: O histórico de transações, permitindo ao clube auditar todas as distribuições de NFTs feitas.</em></p></div>
+<p>Com essa ferramenta, os clubes ganharam total autonomia para gerenciar suas recompensas digitais, desde a criação até a distribuição e o acompanhamento, tudo isso sem precisar interagir com a complexidade da blockchain diretamente.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="os-resultados">Os Resultados<a href="http://docs3.inteliblockchain.org/blog/inteli-day#os-resultados" class="hash-link" aria-label="Direct link to Os Resultados" title="Direct link to Os Resultados">​</a></h2>
+<p>Depois de uma maratona de 1 semana de desenvolvimento, a prova de fogo foi o Inteli Day. A grande questão era: a galera iria aderir? Os clubes iriam usar a ferramenta? A infraestrutura aguentaria o grande volume de requisições?</p>
+<p>A resposta está nos dashboards que montamos para acompanhar o evento em tempo real. E sim, foi um sucesso.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="o-engajamento-dos-clubes-e-o-ritmo-do-evento">O Engajamento dos Clubes e o Ritmo do Evento<a href="http://docs3.inteliblockchain.org/blog/inteli-day#o-engajamento-dos-clubes-e-o-ritmo-do-evento" class="hash-link" aria-label="Direct link to O Engajamento dos Clubes e o Ritmo do Evento" title="Direct link to O Engajamento dos Clubes e o Ritmo do Evento">​</a></h3>
+<p>O primeiro indicador que acompanhamos foi o ranking de mints por clube. Ficou claro que a competição foi acirrada! O Inteli Blockchain e a Comunidade Wave lideraram a disputa pelo topo, mostrando um engajamento incrível e distribuindo dezenas de NFTs. No total, 8 clubes participaram ativamente, provando que a ferramenta foi bem adotada.</p>
+<p>Ao mesmo tempo, o gráfico de fluxo de mints por minuto nos mostrava o "pulso" do evento. Vimos os picos de atividade, em momentos de maior movimento nos stands, com a nossa infraestrutura aguentando tranquilamente alcançando picos de até 4 mints por minuto sem atrasos.</p>
+<div align="center"><img src="http://docs3.inteliblockchain.org/assets/images/dados_mint_nft-22691ca1d809ae32d48ce4a8f7568070.jpeg" alt="Detalhes da missão do projeto" width="100%"><p><em>Legenda: À esquerda, o fluxo de mints durante o evento, mostrando os picos de engajamento. À direita, o ranking final de mints por clube.</em></p></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="os-nfts-mais-cobiçados">Os NFTs Mais Cobiçados<a href="http://docs3.inteliblockchain.org/blog/inteli-day#os-nfts-mais-cobi%C3%A7ados" class="hash-link" aria-label="Direct link to Os NFTs Mais Cobiçados" title="Direct link to Os NFTs Mais Cobiçados">​</a></h3>
+<p>Mas quais foram as recompensas que a galera mais curtiu? O ranking de NFTs mais mintados nos deu essa resposta. Vimos que o NFT "Presida ou Vector" da Comunidade Wave foi o grande campeão, com 9 mints. Essa visão detalhada nos permitiu entender não apenas <em>quantos</em> NFTs foram distribuídos, mas <em>quais</em> foram os mais desejados, gerando dados que poderão ser usados para os próximos eventos.</p>
+<div align="center"><img src="http://docs3.inteliblockchain.org/assets/images/ranking_nfts-d80990a2bc9844ffe7eb4423ec9c6f9f.jpeg" alt="Detalhes da missão do projeto" width="100%"><p><em>Legenda: O ranking detalhado dos 15 NFTs mais mintados durante o Inteli Day.</em></p></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusão">Conclusão<a href="http://docs3.inteliblockchain.org/blog/inteli-day#conclus%C3%A3o" class="hash-link" aria-label="Direct link to Conclusão" title="Direct link to Conclusão">​</a></h2>
+<p>O projeto do Inteli Day foi muito mais do que um exercício técnico; foi a prova de que a tecnologia blockchain, quando aplicada para resolver um problema real, pode criar experiências incríveis. Saímos de um cenário onde visitantes estavam perdidos, para um ambiente gamificado, interativo e com recompensas digitais verificáveis.</p>
+<p>A escolha do stack se provou acertada: a Solana, com seus Compressed NFTs, nos deu a escala e o custo-benefício necessários; a AWS garantiu uma infraestrutura robusta e escalável; e o NestJS manteve nosso código organizado e manutenível.</p>
+<p>Ver os gráficos subindo em tempo real e os alunos mostrando suas coleções de NFTs foi a maior recompensa. Esperamos que este projeto inspire outros a tirarem suas ideias do papel e a usarem a tecnologia para construir soluções práticas e divertidas. Nos vemos no próximo evento!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="repositórios-do-projeto">Repositórios do Projeto<a href="http://docs3.inteliblockchain.org/blog/inteli-day#reposit%C3%B3rios-do-projeto" class="hash-link" aria-label="Direct link to Repositórios do Projeto" title="Direct link to Repositórios do Projeto">​</a></h2>
+<p>Ficou curioso para ver o código? Todo o projeto é open source! Dê uma olhada nos nossos repositórios no GitHub e sinta-se à vontade para contribuir ou tirar dúvidas:</p>
+<ol>
+<li>
+<p>Frontend:</p>
+<ul>
+<li>
+<p><a href="https://github.com/VinTesta/inteli-quest-nft" target="_blank" rel="noopener noreferrer">Aplicação do Usuário</a></p>
+</li>
+<li>
+<p><a href="https://github.com/VinTesta/mint-booth-pro" target="_blank" rel="noopener noreferrer">Aplicação dos Clubes</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Backend:</p>
+<ul>
+<li><a href="https://github.com/VinTesta/inteli-day-api" target="_blank" rel="noopener noreferrer">API em NestJS com Solana e AWS</a></li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>Uma contribuição de <a href="https://github.com/giovanna-britto" target="_blank" rel="noopener noreferrer">Giovanna Britto</a> e <a href="https://github.com/VinTesta" target="_blank" rel="noopener noreferrer">Vinicius Testa</a></p>
+</blockquote>]]></content:encoded>
+            <category>Web3</category>
+            <category>Inteli Blockchain Projects</category>
+        </item>
+        <item>
             <title><![CDATA[High Block]]></title>
             <link>http://docs3.inteliblockchain.org/blog/first-project</link>
             <guid>http://docs3.inteliblockchain.org/blog/first-project</guid>
