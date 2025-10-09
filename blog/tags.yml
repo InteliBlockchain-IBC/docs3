@@ -12,3 +12,8 @@ blockchain-basics:
   label: Blockchain Basics
   permalink: /blockchain-basics
   description: Blockchain Basics tag description
+
+blockchain-projects:
+  label: Inteli Blockchain Projects
+  permalink: /blockchain-projects
+  description: Inteli Blockchain Projects tag description
