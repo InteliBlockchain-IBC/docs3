@@ -5,13 +5,32 @@ authors: [testa, giovanna]
 tags: [web3, blockchain-projects]
 ---
 
+import PaginaInicial from './assets/pagina_inicial.jpeg';
+import DetalhesMissao from './assets/detalhes_missao.jpeg';
+import Clubes from './assets/clubes.jpeg';
+import DetalhesClube from './assets/detalhes_clube.jpeg';
+import CapturaNft from './assets/captura_nft.jpeg';
+import MainColecaoNft from './assets/main_colecao_nft.jpeg';
+import ColecaoNft from './assets/colecao_nft.jpeg';
+import DetalhesNft2 from './assets/detalhes_nft_2.jpeg';
+import DetalhesNft from './assets/detalhes_nft.jpeg';
+import PerfilUsuario from './assets/perfil_usuario.jpeg';
+import DashboardNft from './assets/dashboard_nft.jpeg';
+import InteliDay from './inteli-day.png';
+import CriarNft from './assets/criar_nft.jpeg';
+import DetalheNftClube from './assets/detalhe_nft_clube.jpeg';
+import EnviarNft from './assets/enviar_nft.jpeg';
+import His from './assets/his.jpeg';
+import DadosMint from './assets/dados_mint_nft.jpeg';
+import RankingNfts from './assets/ranking_nfts.jpeg';
+
 # Inteli Blockchain no Inteli Day: Como Criamos uma Aplicação de NFTs com Solana para Engajar Alunos e Clubes
 
 O Inteli Day é um dos eventos mais importantes do nosso calendário acadêmico do [Inteli](https://www.inteli.edu.br/). É o dia em que abrimos as portas para futuros alunos, apresentamos nossos cursos, projetos e as atividades dos clubes estudantis. Como membros do Inteli Blockchain, queríamos mais do que apenas apresentar slides; queríamos construir algo real e que resolvesse um problema real do evento.
 
 <div align="center">
 
-<img src="./inteli-day.png" alt="Detalhes da missão do projeto" width="80%">
+<img src={InteliDay} alt="Detalhes da missão do projeto" width="80%"/>
 
 </div>
 
@@ -66,7 +85,7 @@ Este foi o ponto-chave para a viabilidade econômica. Em vez de mintar NFTs trad
 
 3. Idempotência e Segurança:
 
-Para evitar mints duplicados ou fraudes, nosso sistema criava um registro no DynamoDB (CLUB#<id> / CMINT#<nftId>#<recipient>) antes de cada transação. Se uma tentativa de mint para o mesmo aluno e mesma missão ocorresse novamente, o sistema a bloqueava.
+Para evitar mints duplicados ou fraudes, nosso sistema criava um registro no DynamoDB (CLUB# / CMINT#) antes de cada transação. Se uma tentativa de mint para o mesmo aluno e mesma missão ocorresse novamente, o sistema a bloqueava.
 
 ## Como Foi na Prática: A Jornada do Visitante no App
 
@@ -78,8 +97,8 @@ Ao entrar na aplicação, o visitante caía na tela de **Missões**. Ali, ele ti
 
 <table>
   <tr>
-    <td><img src="./assets/pagina_inicial.jpeg" alt="Página inicial do projeto" width="100%"></td>
-    <td><img src="./assets/detalhes_missao.jpeg" alt="Detalhes da missão do projeto" width="100%"></td>
+    <td><img src={PaginaInicial} alt="Página inicial do projeto" width="100%"/></td>
+    <td><img src={DetalhesMissao} alt="Detalhes da missão do projeto" width="100%"/></td>
   </tr>
 </table>
 
@@ -89,8 +108,8 @@ O usuário também podia navegar pela aba **Clubes** para ver a lista de todos o
 
 <table>
   <tr>
-    <td><img src="./assets/clubes.jpeg" alt="Página inicial do projeto" width="100%"></td>
-    <td><img src="./assets/detalhes_clube.jpeg" alt="Detalhes da missão do projeto" width="100%"></td>
+    <td><img src={Clubes} alt="Página inicial do projeto" width="100%"/></td>
+    <td><img src={DetalhesClube} alt="Detalhes da missão do projeto" width="100%"/></td>
   </tr>
 </table>
 
@@ -102,7 +121,7 @@ Quando o visitante chegava ao stand do clube correto, a mágica acontecia. Ele a
 
 <div align="center">
 
-<img src="./assets/captura_nft.jpeg" alt="Detalhes da missão do projeto" width="60%">
+<img src={CapturaNft} alt="Detalhes da missão do projeto" width="60%"/>
 
 </div>
 
@@ -114,8 +133,8 @@ Missão cumprida! O NFT recém-adquirido aparecia instantaneamente na aba **NFTs
 
 <table>
   <tr>
-    <td><img src="./assets/main_colecao_nft.jpeg" alt="Detalhes da missão do projeto" width="100%"></td>
-    <td><img src="./assets/colecao_nft.jpeg" alt="Página inicial do projeto" width="100%"></td>
+    <td><img src={MainColecaoNft} alt="Detalhes da missão do projeto" width="100%"/></td>
+    <td><img src={ColecaoNft} alt="Página inicial do projeto" width="100%"/></td>
   </tr>
 </table>
 
@@ -125,8 +144,8 @@ O mais legal é que cada NFT era inspecionável. Ao clicar em um deles, o usuár
 
 <table>
   <tr>
-    <td><img src="./assets/detalhes_nft_2.jpeg" alt="Detalhes da missão do projeto" width="100%"></td>
-    <td><img src="./assets/detalhes_nft.jpeg" alt="Página inicial do projeto" width="100%"></td>
+    <td><img src={DetalhesNft2} alt="Detalhes da missão do projeto" width="100%"/></td>
+    <td><img src={DetalhesNft} alt="Página inicial do projeto" width="100%"/></td>
   </tr>
 </table>
 
@@ -138,7 +157,7 @@ Por fim, na aba **Perfil**, o usuário tinha um resumo completo de seu desempenh
 
 <div align="center">
 
-<img src="./assets/perfil_usuario.jpeg" alt="Detalhes da missão do projeto" width="60%">
+<img src={PerfilUsuario} alt="Detalhes da missão do projeto" width="60%"/>
 
 </div>
 
@@ -161,7 +180,7 @@ Ao logar, o membro do clube acessava um dashboard com todos os "templates" de NF
 
 <div align="center">
 
-<img src="./assets/dashboard_nft.jpeg" alt="Detalhes da missão do projeto" width="60%">
+<img src={DashboardNft} alt="Detalhes da missão do projeto" width="60%"/>
 
 *Legenda: O dashboard principal do clube, listando os NFTs já criados e prontos para serem distribuídos.*
 
@@ -175,8 +194,8 @@ A qualquer momento, o clube podia criar um novo NFT. Clicando no botão "+", ele
 
 <table>
   <tr>
-    <td><img src="./assets/criar_nft.jpeg" alt="Detalhes da missão do projeto" width="100%"></td>
-    <td><img src="./assets/detalhe_nft_clube.jpeg" alt="Página inicial do projeto" width="100%"></td>
+    <td><img src={CriarNft} alt="Detalhes da missão do projeto" width="100%"/></td>
+    <td><img src={DetalheNftClube} alt="Página inicial do projeto" width="100%"/></td>
   </tr>
 </table>
 
@@ -193,7 +212,7 @@ Com um clique em "Confirmar", a requisição era enviada para o nosso backend, q
 
 <div align="center">
 
-<img src="./assets/enviar_nft.jpeg" alt="Detalhes da missão do projeto" width="60%">
+<img src={EnviarNft} alt="Detalhes da missão do projeto" width="60%"/>
 
 *Legenda: A tela de mint, onde o clube selecionava o NFT e escaneava o QR Code do aluno para enviar a recompensa.*
 
@@ -205,7 +224,7 @@ Para garantir total transparência e controle, cada clube tinha acesso a um hist
 
 <div align="center">
 
-<img src="./assets/his.jpeg" alt="Detalhes da missão do projeto" width="60%">
+<img src={His} alt="Detalhes da missão do projeto" width="60%"/>
 
 *Legenda: O histórico de transações, permitindo ao clube auditar todas as distribuições de NFTs feitas.*
 
@@ -229,7 +248,7 @@ Ao mesmo tempo, o gráfico de fluxo de mints por minuto nos mostrava o "pulso" d
 
 <div align="center">
 
-<img src="./assets/dados_mint_nft.jpeg" alt="Detalhes da missão do projeto" width="100%">
+<img src={DadosMint} alt="Detalhes da missão do projeto" width="100%"/>
 
 *Legenda: À esquerda, o fluxo de mints durante o evento, mostrando os picos de engajamento. À direita, o ranking final de mints por clube.*
 
@@ -241,7 +260,7 @@ Mas quais foram as recompensas que a galera mais curtiu? O ranking de NFTs mais 
 
 <div align="center">
 
-<img src="./assets/ranking_nfts.jpeg" alt="Detalhes da missão do projeto" width="100%">
+<img src={RankingNfts} alt="Detalhes da missão do projeto" width="100%"/>
 
 *Legenda: O ranking detalhado dos 15 NFTs mais mintados durante o Inteli Day.*
 
